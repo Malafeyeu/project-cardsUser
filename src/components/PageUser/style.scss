@@ -1,0 +1,58 @@
+.container-PageUser {
+  font-family: Roboto;
+  width: 100%;
+  height: 100%;
+  .container-w-clientInfo {
+    margin-top: 49px;
+    .block-flex-container {
+      display: flex;
+      justify-content: center;
+      gap: 129px;
+      @media(max-width: 1080px) {
+        gap: 32px;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      .block-w-description {
+        width: 44%;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 136.187%;
+        @media(max-width: 1080px) {
+          width: 60%;
+        }
+        @media(max-width: 679px) {
+          width: 95%;
+        }
+      }
+      .box-w-contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        .box-w-contacts__box-w-phoneNumber {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          .box-w-phoneNumber__phoneNumber {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 136.187%;
+          }
+        }
+        .box-w-contacts__box-w-email {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          .box-w-email__email {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 136.187%;
+          }
+        }
+      }
+    }
+  }
+}
